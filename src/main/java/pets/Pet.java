@@ -10,7 +10,6 @@ public abstract class Pet {
     public Pet(String name) {
         this.name = name;
     }
-
     public String getName() {
         return name;
     }
@@ -18,6 +17,9 @@ public abstract class Pet {
         this.name = name;
     }
     public String speak() {
+        return null;
+    }
+    public Integer age() {
         return null;
     }
 }
